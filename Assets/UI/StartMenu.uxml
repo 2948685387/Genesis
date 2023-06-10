@@ -1,0 +1,11 @@
+<ui:UXML xmlns:ui="UnityEngine.UIElements" xmlns:uie="UnityEditor.UIElements" xsi="http://www.w3.org/2001/XMLSchema-instance" engine="UnityEngine.UIElements" editor="UnityEditor.UIElements" noNamespaceSchemaLocation="../UIElementsSchema/UIElements.xsd" editor-extension-mode="False">
+    <Style src="project://database/Assets/UI/StyleSheets/MenuStyle.uss?fileID=7433441132597879392&amp;guid=8793913551bd6e94f832d026eab019d3&amp;type=3#MenuStyle" />
+    <ui:VisualElement name="MainMenu" style="flex-grow: 1; align-items: center; justify-content: center; display: flex;">
+        <ui:Button text="开始游戏" display-tooltip-when-elided="true" focusable="true" name="StartGame" class="MenuStyle button-style ButtonStyle" />
+        <ui:Button text="游戏设置" display-tooltip-when-elided="true" name="Options" class="MenuStyle ButtonStyle" />
+        <ui:Button text="退出游戏" display-tooltip-when-elided="true" name="Quit" class="MenuStyle ButtonStyle" />
+    </ui:VisualElement>
+    <ui:VisualElement name="OptionsMenu" style="flex-grow: 1; align-items: center; justify-content: center; display: none;">
+        <ui:Button text="返回" display-tooltip-when-elided="true" name="Back" class="MenuStyle ButtonStyle" />
+    </ui:VisualElement>
+</ui:UXML>
